@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "querystring";
 
-const baseURL = "http://localhost:5000/api/v1/";
+const baseURL = "https://moonflix-netflix-clone-project.vercel.app";
 
 const publicClient = axios.create({
   baseURL,
