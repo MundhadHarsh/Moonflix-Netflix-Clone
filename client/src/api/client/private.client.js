@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "querystring";
 
-const baseURL = "https://moonflix-netflix-clone-project.vercel.app";
+const baseURL = "https://moonflix-netflix-clone-project.vercel.app/api/v1";
 
 const privateClient = axios.create({
   baseURL,
